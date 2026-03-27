@@ -12,6 +12,9 @@ const dest      = `${__dirname}/dist`;
 // https://vitejs.dev/config/
 export default defineConfig({
     base: "./",
+    server: {
+        allowedHosts: "all",
+    },
     plugins: [
         vue(),
         viteStaticCopy({
