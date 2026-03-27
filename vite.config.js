@@ -13,7 +13,7 @@ const dest      = `${__dirname}/dist`;
 export default defineConfig({
     base: "./",
     server: {
-        allowedHosts: "all",
+        allowedHosts: true,
     },
     plugins: [
         vue(),
