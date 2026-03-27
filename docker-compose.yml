@@ -6,3 +6,5 @@ services:
       - "0.0.0.0:5173:5173"
     env_file:
       - .env
+      - path: .env.local
+        required: false
